@@ -1,0 +1,9 @@
+{
+  "button": {
+    "login": "Login"
+  },
+  "title": {
+    "login": "Login"
+  },
+  "forget_password_text": "If you forget your password, please contact admin"
+}

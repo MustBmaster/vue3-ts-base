@@ -1,0 +1,9 @@
+{
+  "button": {
+    "login": "ロギン"
+  },
+  "title": {
+    "login": "ログイン"
+  },
+  "forget_password_text": "パスワードを忘れた場合は管理者に連絡してください"
+}

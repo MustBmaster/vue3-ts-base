@@ -38,6 +38,7 @@ const router = createRouter({
       path: '/login',
       name: 'home',
       component: import('@/views/Login.vue'),
+      meta: { title: 'Login' },
     },
     {
       path: '/about',

@@ -5,14 +5,19 @@
       <H4 class="title">{{ $t('title.login') }}</H4>
       <el-form class="w-100">
         <el-form-item>
-          <el-input :prefix-icon="User" v-model="username" placeholder="Username" size="large" />
+          <el-input
+            :prefix-icon="User"
+            v-model="username"
+            :placeholder="t('place_holder.id')"
+            size="large"
+          />
         </el-form-item>
         <el-form-item>
           <el-input
             :prefix-icon="Lock"
             type="password"
             v-model="password"
-            placeholder="Password"
+            :placeholder="t('place_holder.password')"
             size="large"
           />
         </el-form-item>
@@ -34,9 +39,7 @@
 import { User, Lock } from '@element-plus/icons-vue'
 import { ref } from 'vue'
 import { useI18n } from 'vue-i18n'
-
 const { t, locale } = useI18n()
-
 const username = ref('')
 const password = ref('')
 
@@ -63,6 +66,9 @@ const changeLanguage = () => {
   background-color: white;
   border-radius: 12px;
   padding: 40px;
+  ::v-deep(.el-input__prefix) {
+    color: #007bff;
+  }
 }
 .background-container {
   height: 100vh; /* Chiều cao 100% viewport */

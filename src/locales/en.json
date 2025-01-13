@@ -1,4 +1,8 @@
 {
+  "place_holder": {
+    "id": "ID",
+    "password": "Password"
+  },
   "button": {
     "login": "Login"
   },

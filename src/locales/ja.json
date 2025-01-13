@@ -1,4 +1,8 @@
 {
+  "place_holder": {
+    "id": "ID",
+    "password": "パスワード"
+  },
   "button": {
     "login": "ロギン"
   },

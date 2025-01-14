@@ -32,11 +32,18 @@ const router = createRouter({
     {
       path: '/',
       name: 'home',
-      component: HomeView,
+      redirect: '/login',
+      children: [
+        {
+          path: 'login',
+          component: import('@/views/Login.vue'),
+          meta: { title: 'Login' },
+        },
+      ],
     },
     {
       path: '/login',
-      name: 'home',
+      name: 'login',
       component: import('@/views/Login.vue'),
       meta: { title: 'Login' },
     },

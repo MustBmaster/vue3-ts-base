@@ -14,6 +14,10 @@ TypeScript cannot handle type information for `.vue` imports by default, so we r
 
 See [Vite Configuration Reference](https://vite.dev/config/).
 
+### Requirements
+
+- Node.js version: **18.17.1** (Make sure to use the specified version to avoid compatibility issues)
+
 ## Project Setup
 
 ```sh
@@ -39,5 +43,6 @@ npm run lint
 ```
 
 ### Rule
+
 use Composition api in Pinia and .vue files
 always use reactive with array and obj states

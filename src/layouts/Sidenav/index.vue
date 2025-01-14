@@ -12,63 +12,8 @@
       </div>
     </div>
     <el-scrollbar>
-      <el-menu default-active="2" class="menu-vertical" :collapse="isCollapse">
-        <el-sub-menu index="1">
-          <template #title>
-            <el-icon><location /></el-icon>
-            <span>Navigator One</span>
-          </template>
-          <el-menu-item-group>
-            <template #title><span>Group One</span></template>
-            <el-menu-item index="1-1">item one</el-menu-item>
-            <el-menu-item index="1-2">item two</el-menu-item>
-          </el-menu-item-group>
-          <el-menu-item-group title="Group Two">
-            <el-menu-item index="1-3">item three</el-menu-item>
-          </el-menu-item-group>
-          <el-sub-menu index="1-4">
-            <template #title><span>item four</span></template>
-            <el-menu-item index="1-4-1">item one</el-menu-item>
-          </el-sub-menu>
-        </el-sub-menu>
-        <el-menu-item index="2">
-          <el-icon><icon-menu /></el-icon>
-          <template #title>Navigator Two</template>
-        </el-menu-item>
-        <el-menu-item index="3" disabled>
-          <el-icon><document /></el-icon>
-          <template #title>Navigator Three</template>
-        </el-menu-item>
-        <el-menu-item index="4">
-          <el-icon><setting /></el-icon>
-          <template #title>Navigator Four</template>
-        </el-menu-item>
-        <el-sub-menu index="1">
-          <template #title>
-            <el-icon><location /></el-icon>
-            <span>Navigator One</span>
-          </template>
-          <el-menu-item-group>
-            <template #title><span>Group One</span></template>
-            <el-menu-item index="1-1">item one</el-menu-item>
-            <el-menu-item index="1-2">item two</el-menu-item>
-          </el-menu-item-group>
-          <el-menu-item-group title="Group Two">
-            <el-menu-item index="1-3">item three</el-menu-item>
-          </el-menu-item-group>
-          <el-sub-menu index="1-4">
-            <template #title><span>item four</span></template>
-            <el-menu-item index="1-4-1">item one</el-menu-item>
-          </el-sub-menu>
-        </el-sub-menu>
-        <el-menu-item index="2">
-          <el-icon><icon-menu /></el-icon>
-          <template #title>Navigator Two</template>
-        </el-menu-item>
-        <el-menu-item index="3" disabled>
-          <el-icon><document /></el-icon>
-          <template #title>Navigator Three</template>
-        </el-menu-item>
+      <el-menu default-active="1" class="menu-vertical me-1" :collapse="isCollapse">
+        <NavItem />
       </el-menu>
     </el-scrollbar>
     <div class="expand-nav-button" @click="toggleCollapse">
@@ -80,6 +25,7 @@
 <script lang="ts" setup>
 import { ref } from 'vue'
 import { Document, Menu as IconMenu, Location, Setting } from '@element-plus/icons-vue'
+import NavItem from './NavItem.vue'
 
 const isCollapse = ref(false)
 const toggleCollapse = () => {
@@ -98,6 +44,15 @@ const toggleCollapse = () => {
   border-right: 1px solid var(--el-menu-border-color);
   ::v-deep(.el-menu) {
     border-right: none !important;
+  }
+  ::v-deep(.el-menu-item.is-active) {
+    background-color: #e6f7ff !important;
+    border-right: 3px solid #1890ff !important;
+  }
+
+  ::v-deep(.el-sub-menu__title.is-active) {
+    background-color: #e6f7ff !important;
+    border-right: 3px solid #1890ff !important;
   }
 }
 

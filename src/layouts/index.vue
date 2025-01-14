@@ -138,7 +138,7 @@ import SideNav from './Sidenav/index.vue'
 }
 .content-frame {
   padding: 24px 0 24px 24px;
-  background-color: red;
+
   height: calc(100vh - 72px);
 }
 
@@ -148,6 +148,6 @@ import SideNav from './Sidenav/index.vue'
   background-color: white;
 }
 .page-content {
-  padding-right: 24px;
+  margin-right: 24px;
 }
 </style>

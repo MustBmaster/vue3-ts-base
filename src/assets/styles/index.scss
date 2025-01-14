@@ -2,7 +2,7 @@
 @use './mixin.scss' as *; // Import mixins
 @use './transition.scss' as *; // Import transitions
 @use './element-ui.scss' as *; // Import element-ui styles
-// @use './sidebar.scss' as *; // Import sidebar styles
+@use './sidebar.scss' as *; // Import sidebar styles
 @use './btn.scss' as *; // Import button styles
 
 body {
@@ -192,7 +192,4 @@ aside {
 }
 .multiselect--active {
   z-index: 1000 !important;
-}
-.minhnv1 {
-  color: red;
 }

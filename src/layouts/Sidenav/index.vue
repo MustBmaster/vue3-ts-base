@@ -13,7 +13,7 @@
     </div>
     <el-scrollbar>
       <el-menu default-active="1" class="menu-vertical me-1" :collapse="isCollapse">
-        <NavItem />
+        <NavItem v-for="item of menu" :title="item.meta?.title || ''" />
       </el-menu>
     </el-scrollbar>
     <div class="expand-nav-button" @click="toggleCollapse">
@@ -23,15 +23,23 @@
 </template>
 
 <script lang="ts" setup>
-import { ref } from 'vue'
-import { Document, Menu as IconMenu, Location, Setting } from '@element-plus/icons-vue'
+import { ref, onMounted, reactive } from 'vue'
+import { usePermissionStore } from '@/stores/permisson'
 import NavItem from './NavItem.vue'
+import type { RouteRecord } from '@/interfaces/route'
 
 const isCollapse = ref(false)
+const menu = reactive<RouteRecord[]>([])
 const toggleCollapse = () => {
   isCollapse.value = !isCollapse.value
 }
+onMounted(() => {
+  usePermissionStore().getAvailableRoutes(['admin'])
+  menu.splice(0, menu.length, ...usePermissionStore().routes)
+  console.log(menu)
+})
 </script>
+
 <style lang="scss" scoped>
 .side-nav {
   background-color: white;

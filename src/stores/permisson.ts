@@ -1,26 +1,25 @@
-// store/permission.ts
 import { defineStore } from 'pinia'
-import type { RouteRecordRaw } from 'vue-router'
-import router from '@/router' // Adjust the path based on your project structure
+import { reactive } from 'vue'
+import type { RouteRecord } from '@/interfaces/route'
+import router from '@/router'
 
-export const usePermissionStore = defineStore('permission', {
-  state: () => ({
-    routes: [] as RouteRecordRaw[], // All accessible routes
-    dynamicRoutes: [] as RouteRecordRaw[], // Routes that require permission
-  }),
-  actions: {
-    setRoutes(routes: RouteRecordRaw[]) {
-      this.routes = routes
-      this.dynamicRoutes = routes.filter((route) => route.meta?.roles) // Example filter
-    },
-    generateRoutes(roles: string[]) {
-      const accessedRoutes = router.options.routes.filter((route) => {
-        if (route.meta && route.meta.roles) {
-          return roles.some((role) => route.meta.roles.includes(role))
-        }
-        return true
-      })
-      this.setRoutes(accessedRoutes)
-    },
-  },
+export const usePermissionStore = defineStore('permission', () => {
+  const routes = reactive<RouteRecord[]>([])
+  function hasPermission(roles: string[], route: RouteRecord) {
+    if (!route.meta || !route.meta.roles) {
+      return true
+    }
+    const routeRoles = route.meta.roles
+    return roles.some((role) => routeRoles.includes(role))
+  }
+  function getAvailableRoutes(roles: string[]) {
+    const routes = router.options.routes as RouteRecord[]
+    const accessedRoutes = routes.filter((route) => hasPermission(roles, route))
+    routes.splice(0, routes.length, ...accessedRoutes)
+    console.log(routes)
+  }
+  return {
+    routes,
+    getAvailableRoutes,
+  }
 })

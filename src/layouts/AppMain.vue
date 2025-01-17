@@ -1,22 +1,18 @@
 <template>
-  <section class="app-main">
-    <transition name="fade-transform" mode="out-in">
-      <keep-alive>
-        <router-view :key="key" />
-      </keep-alive>
-    </transition>
-  </section>
+  <transition name="fade-transform" mode="out-in">
+    <keep-alive>
+      <router-view :key="key" />
+    </keep-alive>
+  </transition>
 </template>
 
-<script>
-export default {
-  name: 'AppMain',
-  computed: {
-    key() {
-      return this.$route.path
-    },
-  },
-}
+<script lang="ts" setup>
+import { computed } from 'vue'
+import { useRoute } from 'vue-router'
+
+const route = useRoute()
+
+const key = computed(() => route.path)
 </script>
 
 <style lang="scss" scoped>

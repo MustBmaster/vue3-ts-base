@@ -5,9 +5,9 @@ export interface RouteMeta {
   title: string
   icon?: string
   hidden?: boolean
-  alwaysShow?: boolean
 }
 
 export type RouteRecord = RouteRecordRaw & {
   meta?: RouteMeta
+  children?: RouteRecord[]
 }

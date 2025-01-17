@@ -13,29 +13,32 @@
     </div>
     <el-scrollbar>
       <el-menu default-active="1" class="menu-vertical me-1" :collapse="isCollapse">
-        <NavItem v-for="item of menu" :title="item.meta?.title || ''" />
+        <NavItem v-for="item of menu" :item="item" />
       </el-menu>
     </el-scrollbar>
     <div class="expand-nav-button" @click="toggleCollapse">
-      <el-icon><icon-menu /></el-icon>
+      <el-icon><Expand v-if="isCollapse" /><Fold v-else /></el-icon>
     </div>
   </div>
 </template>
 
 <script lang="ts" setup>
-import { ref, onMounted, reactive } from 'vue'
+import { ref, onMounted } from 'vue'
 import { usePermissionStore } from '@/stores/permisson'
 import NavItem from './NavItem.vue'
 import type { RouteRecord } from '@/interfaces/route'
 
 const isCollapse = ref(false)
-const menu = reactive<RouteRecord[]>([])
+const menu = ref<RouteRecord[]>([])
+
 const toggleCollapse = () => {
   isCollapse.value = !isCollapse.value
 }
+
 onMounted(() => {
-  usePermissionStore().getAvailableRoutes(['admin'])
-  menu.splice(0, menu.length, ...usePermissionStore().routes)
+  const permissionStore = usePermissionStore()
+  permissionStore.getAvailableRoutes(['admin'])
+  menu.value = [...permissionStore.routes] // Gán giá trị từ `ref`
   console.log(menu)
 })
 </script>

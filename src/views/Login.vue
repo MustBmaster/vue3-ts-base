@@ -1,36 +1,40 @@
 <template>
-  <div class="d-flex align-items-center justify-content-center background-container">
-    <div class="login-form d-flex align-items-center justify-content-center flex-column">
-      <img src="@/assets/images/apisteLogo.png" />
-      <H4 class="title">{{ $t('title.login') }}</H4>
-      <el-form class="w-100">
-        <el-form-item>
-          <el-input
-            :prefix-icon="User"
-            v-model="username"
-            :placeholder="t('place_holder.id')"
-            size="large"
-          />
-        </el-form-item>
-        <el-form-item>
-          <el-input
-            :prefix-icon="Lock"
-            type="password"
-            v-model="password"
-            :placeholder="t('place_holder.password')"
-            size="large"
-          />
-        </el-form-item>
-        <el-form-item>
-          <el-button class="w-100" size="large" type="primary" @click="login">{{
-            $t('button.login')
-          }}</el-button>
-        </el-form-item>
-      </el-form>
-      <span>
-        {{ $t('forget_password_text') }}
-      </span>
-      <el-button @click="changeLanguage" size="small">{{ $t('button.changeLanguage') }}</el-button>
+  <div class="p-4">
+    <div class="d-flex align-items-center justify-content-center background-container">
+      <div class="login-form d-flex align-items-center justify-content-center flex-column">
+        <img src="@/assets/images/apisteLogo.png" />
+        <H4 class="title">{{ $t('title.login') }}</H4>
+        <el-form class="w-100">
+          <el-form-item>
+            <el-input
+              :prefix-icon="User"
+              v-model="username"
+              :placeholder="t('place_holder.id')"
+              size="large"
+            />
+          </el-form-item>
+          <el-form-item>
+            <el-input
+              :prefix-icon="Lock"
+              type="password"
+              v-model="password"
+              :placeholder="t('place_holder.password')"
+              size="large"
+            />
+          </el-form-item>
+          <el-form-item>
+            <el-button class="w-100" size="large" type="primary" @click="login">{{
+              $t('button.login')
+            }}</el-button>
+          </el-form-item>
+        </el-form>
+        <span>
+          {{ $t('forget_password_text') }}
+        </span>
+        <el-button @click="changeLanguage" size="small">{{
+          $t('button.changeLanguage')
+        }}</el-button>
+      </div>
     </div>
   </div>
 </template>

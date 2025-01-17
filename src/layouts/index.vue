@@ -8,119 +8,7 @@
       <div class="content-frame">
         <el-scrollbar max-height="100%">
           <div class="bg-white page-content">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem veritatis consequuntur
-            voluptates illo tempore quas sunt optio eligendi. Suscipit optio quod omnis deserunt
-            impedit doloribus quae, nobis eaque obcaecati. Ratione. Lorem, ipsum dolor sit amet
-            consectetur adipisicing elit. Dignissimos, dolorem facere? Soluta accusantium saepe
-            alias praesentium mollitia dolores eaque vero, amet incidunt modi enim delectus? Libero
-            tempore velit quod debitis. Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Quasi necessitatibus, delectus, dolorem enim dolores nostrum rerum esse, dolor quidem
-            maxime consectetur voluptatem harum soluta modi ipsa eaque commodi voluptate
-            repudiandae. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem veritatis
-            consequuntur voluptates illo tempore quas sunt optio eligendi. Suscipit optio quod omnis
-            deserunt impedit doloribus quae, nobis eaque obcaecati. Ratione. Lorem, ipsum dolor sit
-            amet consectetur adipisicing elit. Dignissimos, dolorem facere? Soluta accusantium saepe
-            alias praesentium mollitia dolores eaque vero, amet incidunt modi enim delectus? Libero
-            tempore velit quod debitis. Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Quasi necessitatibus, delectus, dolorem enim dolores nostrum rerum esse, dolor quidem
-            maxime consectetur voluptatem harum soluta modi ipsa eaque commodi voluptate
-            repudiandae.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem veritatis
-            consequuntur voluptates illo tempore quas sunt optio eligendi. Suscipit optio quod omnis
-            deserunt impedit doloribus quae, nobis eaque obcaecati. Ratione. Lorem, ipsum dolor sit
-            amet consectetur adipisicing elit. Dignissimos, dolorem facere? Soluta accusantium saepe
-            alias praesentium mollitia dolores eaque vero, amet incidunt modi enim delectus? Libero
-            tempore velit quod debitis. Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Quasi necessitatibus, delectus, dolorem enim dolores nostrum rerum esse, dolor quidem
-            maxime consectetur voluptatem harum soluta modi ipsa eaque commodi voluptate
-            repudiandae.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem veritatis
-            consequuntur voluptates illo tempore quas sunt optio eligendi. Suscipit optio quod omnis
-            deserunt impedit doloribus quae, nobis eaque obcaecati. Ratione. Lorem, ipsum dolor sit
-            amet consectetur adipisicing elit. Dignissimos, dolorem facere? Soluta accusantium saepe
-            alias praesentium mollitia dolores eaque vero, amet incidunt modi enim delectus? Libero
-            tempore velit quod debitis. Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Quasi necessitatibus, delectus, dolorem enim dolores nostrum rerum esse, dolor quidem
-            maxime consectetur voluptatem harum soluta modi ipsa eaque commodi voluptate
-            repudiandae.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem veritatis
-            consequuntur voluptates illo tempore quas sunt optio eligendi. Suscipit optio quod omnis
-            deserunt impedit doloribus quae, nobis eaque obcaecati. Ratione. Lorem, ipsum dolor sit
-            amet consectetur adipisicing elit. Dignissimos, dolorem facere? Soluta accusantium saepe
-            alias praesentium mollitia dolores eaque vero, amet incidunt modi enim delectus? Libero
-            tempore velit quod debitis. Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Quasi necessitatibus, delectus, dolorem enim dolores nostrum rerum esse, dolor quidem
-            maxime consectetur voluptatem harum soluta modi ipsa eaque commodi voluptate
-            repudiandae.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem veritatis
-            consequuntur voluptates illo tempore quas sunt optio eligendi. Suscipit optio quod omnis
-            deserunt impedit doloribus quae, nobis eaque obcaecati. Ratione. Lorem, ipsum dolor sit
-            amet consectetur adipisicing elit. Dignissimos, dolorem facere? Soluta accusantium saepe
-            alias praesentium mollitia dolores eaque vero, amet incidunt modi enim delectus? Libero
-            tempore velit quod debitis. Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Quasi necessitatibus, delectus, dolorem enim dolores nostrum rerum esse, dolor quidem
-            maxime consectetur voluptatem harum soluta modi ipsa eaque commodi voluptate
-            repudiandae.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem veritatis
-            consequuntur voluptates illo tempore quas sunt optio eligendi. Suscipit optio quod omnis
-            deserunt impedit doloribus quae, nobis eaque obcaecati. Ratione. Lorem, ipsum dolor sit
-            amet consectetur adipisicing elit. Dignissimos, dolorem facere? Soluta accusantium saepe
-            alias praesentium mollitia dolores eaque vero, amet incidunt modi enim delectus? Libero
-            tempore velit quod debitis. Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Quasi necessitatibus, delectus, dolorem enim dolores nostrum rerum esse, dolor quidem
-            maxime consectetur voluptatem harum soluta modi ipsa eaque commodi voluptate
-            repudiandae.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem veritatis
-            consequuntur voluptates illo tempore quas sunt optio eligendi. Suscipit optio quod omnis
-            deserunt impedit doloribus quae, nobis eaque obcaecati. Ratione. Lorem, ipsum dolor sit
-            amet consectetur adipisicing elit. Dignissimos, dolorem facere? Soluta accusantium saepe
-            alias praesentium mollitia dolores eaque vero, amet incidunt modi enim delectus? Libero
-            tempore velit quod debitis. Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Quasi necessitatibus, delectus, dolorem enim dolores nostrum rerum esse, dolor quidem
-            maxime consectetur voluptatem harum soluta modi ipsa eaque commodi voluptate
-            repudiandae.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem veritatis
-            consequuntur voluptates illo tempore quas sunt optio eligendi. Suscipit optio quod omnis
-            deserunt impedit doloribus quae, nobis eaque obcaecati. Ratione. Lorem, ipsum dolor sit
-            amet consectetur adipisicing elit. Dignissimos, dolorem facere? Soluta accusantium saepe
-            alias praesentium mollitia dolores eaque vero, amet incidunt modi enim delectus? Libero
-            tempore velit quod debitis. Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Quasi necessitatibus, delectus, dolorem enim dolores nostrum rerum esse, dolor quidem
-            maxime consectetur voluptatem harum soluta modi ipsa eaque commodi voluptate
-            repudiandae.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem veritatis
-            consequuntur voluptates illo tempore quas sunt optio eligendi. Suscipit optio quod omnis
-            deserunt impedit doloribus quae, nobis eaque obcaecati. Ratione. Lorem, ipsum dolor sit
-            amet consectetur adipisicing elit. Dignissimos, dolorem facere? Soluta accusantium saepe
-            alias praesentium mollitia dolores eaque vero, amet incidunt modi enim delectus? Libero
-            tempore velit quod debitis. Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Quasi necessitatibus, delectus, dolorem enim dolores nostrum rerum esse, dolor quidem
-            maxime consectetur voluptatem harum soluta modi ipsa eaque commodi voluptate
-            repudiandae.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem veritatis
-            consequuntur voluptates illo tempore quas sunt optio eligendi. Suscipit optio quod omnis
-            deserunt impedit doloribus quae, nobis eaque obcaecati. Ratione. Lorem, ipsum dolor sit
-            amet consectetur adipisicing elit. Dignissimos, dolorem facere? Soluta accusantium saepe
-            alias praesentium mollitia dolores eaque vero, amet incidunt modi enim delectus? Libero
-            tempore velit quod debitis. Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Quasi necessitatibus, delectus, dolorem enim dolores nostrum rerum esse, dolor quidem
-            maxime consectetur voluptatem harum soluta modi ipsa eaque commodi voluptate
-            repudiandae.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem veritatis
-            consequuntur voluptates illo tempore quas sunt optio eligendi. Suscipit optio quod omnis
-            deserunt impedit doloribus quae, nobis eaque obcaecati. Ratione. Lorem, ipsum dolor sit
-            amet consectetur adipisicing elit. Dignissimos, dolorem facere? Soluta accusantium saepe
-            alias praesentium mollitia dolores eaque vero, amet incidunt modi enim delectus? Libero
-            tempore velit quod debitis. Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Quasi necessitatibus, delectus, dolorem enim dolores nostrum rerum esse, dolor quidem
-            maxime consectetur voluptatem harum soluta modi ipsa eaque commodi voluptate
-            repudiandae.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem veritatis
-            consequuntur voluptates illo tempore quas sunt optio eligendi. Suscipit optio quod omnis
-            deserunt impedit doloribus quae, nobis eaque obcaecati. Ratione. Lorem, ipsum dolor sit
-            amet consectetur adipisicing elit. Dignissimos, dolorem facere? Soluta accusantium saepe
-            alias praesentium mollitia dolores eaque vero, amet incidunt modi enim delectus? Libero
-            tempore velit quod debitis. Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Quasi necessitatibus, delectus, dolorem enim dolores nostrum rerum esse, dolor quidem
-            maxime consectetur voluptatem harum soluta modi ipsa eaque commodi voluptate
-            repudiandae.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem veritatis
-            consequuntur voluptates illo tempore quas sunt optio eligendi. Suscipit optio quod omnis
-            deserunt impedit doloribus quae, nobis eaque obcaecati. Ratione. Lorem, ipsum dolor sit
-            amet consectetur adipisicing elit. Dignissimos, dolorem facere? Soluta accusantium saepe
-            alias praesentium mollitia dolores eaque vero, amet incidunt modi enim delectus? Libero
-            tempore velit quod debitis. Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Quasi necessitatibus, delectus, dolorem enim dolores nostrum rerum esse, dolor quidem
-            maxime consectetur voluptatem harum soluta modi ipsa eaque commodi voluptate
-            repudiandae.
+            <AppMain />
           </div>
         </el-scrollbar>
       </div>
@@ -130,6 +18,7 @@
 
 <script lang="ts" setup>
 import SideNav from './Sidenav/index.vue'
+import AppMain from './AppMain.vue'
 </script>
 <style lang="scss" scoped>
 .page-container {

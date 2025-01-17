@@ -45,4 +45,3 @@ npm run lint
 ### Rule
 
 use Composition api in Pinia and .vue files
-always use reactive with array and obj states

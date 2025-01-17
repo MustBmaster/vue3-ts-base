@@ -24,6 +24,7 @@ const i18n = createI18n({
   messages,
 })
 
+
 const app = createApp(App)
 for (const [key, component] of Object.entries(ElementPlusIconsVue)) {
   app.component(key, component)

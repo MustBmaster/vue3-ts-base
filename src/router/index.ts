@@ -7,13 +7,6 @@ const routes: RouteRecord[] = [
     path: '/',
     name: 'home',
     redirect: '/login',
-    // children: [
-    //   {
-    //     path: 'login',
-    //     component: import('@/views/Login.vue'),
-    //     meta: { title: 'Login' },
-    //   },
-    // ],
   },
   {
     path: '/login',
@@ -25,7 +18,7 @@ const routes: RouteRecord[] = [
     path: '/login22',
     name: 'login2222',
     component: import('@/views/Login.vue'),
-    meta: { title: 'Login22', roles: ['admin', 'editor'] },
+    meta: { title: 'Login22', roles: ['admin', 'editor'], icon: 'location' },
   },
   {
     path: '/login223',
@@ -37,18 +30,47 @@ const routes: RouteRecord[] = [
     path: '/login224',
     name: 'login22224',
     component: import('@/views/Login.vue'),
-    meta: { title: 'Login22', roles: ['admin'] },
+    meta: { title: 'Login22', roles: ['admin'], hidden: true },
+    children: [
+      {
+        path: 'child1',
+        name: 'loginChild1',
+        component: import('@/views/Login.vue'),
+        meta: { title: 'Login Child 1', roles: ['admin'] },
+      },
+      {
+        path: 'child2',
+        name: 'loginChild2',
+        component: import('@/views/Login.vue'),
+        meta: { title: 'Login Child 2', roles: ['admin'] },
+      },
+    ],
   },
   {
     path: '/about',
     name: 'about',
     component: Layout,
+    meta: { title: 'Submenu' },
+    children: [
+      {
+        path: 'team',
+        name: 'aboutTeam',
+        component: import('@/views/Login.vue'),
+        meta: { title: 'Our Team', roles: ['admin', 'editor'] },
+      },
+      {
+        path: 'history',
+        name: 'aboutHistory',
+        component: import('@/views/Login.vue'),
+        meta: { title: 'Our History', roles: ['admin'] },
+      },
+    ],
   },
 ]
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
-  routes: routes, // Casting to RouteRecordRaw[]
+  routes: routes,
 })
 
 export default router

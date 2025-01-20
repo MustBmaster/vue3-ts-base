@@ -21,19 +21,32 @@ const routes: RouteRecord[] = [
     meta: { title: 'Login22', roles: ['admin', 'editor'], icon: 'location' },
   },
   {
-    path: '/login223',
-    name: 'login23',
-    component: import('@/views/Login.vue'),
-    meta: { title: 'Login22', roles: ['editor'] },
+    path: '/error',
+    name: 'error',
+    meta: { title: 'Login22', hidden: true },
+    children: [
+      {
+        path: '404',
+        name: '404',
+        component: import('@/views/404.vue'),
+        meta: { title: 'Login Child 1', roles: ['admin'] },
+      },
+      {
+        path: 'child2',
+        name: 'loginChild2',
+        component: import('@/views/Login.vue'),
+        meta: { title: 'Login Child 2', roles: ['admin'] },
+      },
+    ],
   },
   {
     path: '/login224',
     name: 'login22224',
     component: import('@/views/Login.vue'),
-    meta: { title: 'Login22', roles: ['admin'], hidden: true },
+    meta: { title: 'Login22', roles: ['admin'], isTabPage: true },
     children: [
       {
-        path: 'child1',
+        path: '/child1',
         name: 'loginChild1',
         component: import('@/views/Login.vue'),
         meta: { title: 'Login Child 1', roles: ['admin'] },
@@ -55,13 +68,13 @@ const routes: RouteRecord[] = [
       {
         path: 'team',
         name: 'aboutTeam',
-        component: import('@/views/Login.vue'),
+        component: import('@/views/page1.vue'),
         meta: { title: 'Our Team', roles: ['admin', 'editor'] },
       },
       {
         path: 'history',
         name: 'aboutHistory',
-        component: import('@/views/Login.vue'),
+        component: import('@/views/page2.vue'),
         meta: { title: 'Our History', roles: ['admin'] },
       },
     ],

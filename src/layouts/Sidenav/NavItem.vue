@@ -1,6 +1,6 @@
 <template>
   <div v-if="!item.meta?.hidden">
-    <el-sub-menu v-if="item.children" :index="item.path">
+    <el-sub-menu v-if="item.children && !item.meta?.isTabPage" :index="item.path">
       <template #title>
         <el-icon>
           <component :is="item.meta?.icon" />
@@ -30,4 +30,9 @@ const props = defineProps<{
 console.log(props.item)
 </script>
 
-<style scoped></style>
+<style scoped>
+.nav-link {
+  display: flex;
+  align-items: center;
+}
+</style>

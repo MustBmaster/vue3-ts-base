@@ -5,6 +5,7 @@ export interface RouteMeta {
   title: string
   icon?: string
   hidden?: boolean
+  isTabPage?: boolean
 }
 
 export type RouteRecord = RouteRecordRaw & {
